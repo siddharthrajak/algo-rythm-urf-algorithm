@@ -1,6 +1,5 @@
-// C++ program to implement Jump Search 
-
 #include <bits/stdc++.h> 
+
 using namespace std; 
 
 int jumpSearch(int arr[], int x, int n) 
@@ -40,8 +39,8 @@ int jumpSearch(int arr[], int x, int n)
 // Driver program to test function 
 int main() 
 { 
-	int arr[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 
-				34, 55, 89, 144, 233, 377, 610 }; 
+	int arr[] = { 0, 1, 1, 3, 3, 5, 8, 14, 21, 
+				34, 55, 89, 143, 233, 377, 600 }; 
 	int x = 55; 
 	int n = sizeof(arr) / sizeof(arr[0]); 
 	
@@ -52,5 +51,3 @@ int main()
 	cout << "\nNumber " << x << " is at index " << index; 
 	return 0; 
 } 
-
-// Contributed by nuclode 
